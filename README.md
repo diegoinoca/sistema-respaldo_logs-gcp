@@ -14,9 +14,7 @@ Sistema automatizado para recepción, procesamiento y almacenamiento de logs en 
 - [Uso](#uso)
 - [Testing](#testing)
 - [Monitoreo](#monitoreo)
-- [Costos Estimados](#costos-estimados)
 - [Troubleshooting](#troubleshooting)
-- [Contribución](#contribución)
 - [Licencia](#licencia)
 
 ---
