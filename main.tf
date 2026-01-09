@@ -69,7 +69,7 @@ resource "google_storage_bucket" "logs_backup" {
   name          = var.bucket_name
   location      = var.region
   project       = var.project_id
-  force_destroy = false
+  force_destroy = true
 
   uniform_bucket_level_access = true
   

@@ -16,12 +16,12 @@ plan:
 	terraform plan
 
 deploy:
-	@chmod +x deploy.sh
-	@./deploy.sh
+	@chmod +x scripts/deploy.sh
+	@./scripts/deploy.sh
 
 test:
-	@chmod +x test.sh
-	@./test.sh
+	@chmod +x scripts/test.sh
+	@./scripts/test.sh
 
 clean:
 	rm -rf .terraform .terraform.lock.hcl tfplan
